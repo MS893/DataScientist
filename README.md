@@ -46,7 +46,7 @@
 
 ## :dart: About ##
 
-Exercices Big Data et Blockchain
+Exercises Big Data et Blockchain
 
 ## :sparkles: Features ##
 
