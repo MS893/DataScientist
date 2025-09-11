@@ -46,7 +46,7 @@
 
 ## :dart: About ##
 
-Exercises Big Data et Blockchain
+Exercises Big Data (array) et Blockchain (hash)
 
 ## :sparkles: Features ##
 
