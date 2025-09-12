@@ -8,10 +8,6 @@ prix = ["6558.07", "468.95", "0.487526", "762.84", "8.86", "85.26", "0.151268", 
 
 ###########
 
-def device_max_inf_6000
-
-end
-
 # création de la hash table
 my_hash = Hash.new
 my_hash = devises.zip(prix).to_h
