@@ -9,19 +9,19 @@
 <h1 align="center">DataScientist</h1>
 
 <p align="center">
-  <img alt="Github top language" src="https://img.shields.io/github/languages/top/{{YOUR_GITHUB_USERNAME}}/datascientist?color=56BEB8">
+  <img alt="Github top language" src="https://img.shields.io/github/languages/top/MS893/datascientist?color=56BEB8">
 
-  <img alt="Github language count" src="https://img.shields.io/github/languages/count/{{YOUR_GITHUB_USERNAME}}/datascientist?color=56BEB8">
+  <img alt="Github language count" src="https://img.shields.io/github/languages/count/MS893/datascientist?color=56BEB8">
 
-  <img alt="Repository size" src="https://img.shields.io/github/repo-size/{{YOUR_GITHUB_USERNAME}}/datascientist?color=56BEB8">
+  <img alt="Repository size" src="https://img.shields.io/github/repo-size/MS893/datascientist?color=56BEB8">
 
-  <img alt="License" src="https://img.shields.io/github/license/{{YOUR_GITHUB_USERNAME}}/datascientist?color=56BEB8">
+  <img alt="License" src="https://img.shields.io/github/license/MS893/datascientist?color=56BEB8">
 
-  <!-- <img alt="Github issues" src="https://img.shields.io/github/issues/{{YOUR_GITHUB_USERNAME}}/datascientist?color=56BEB8" /> -->
+  <!-- <img alt="Github issues" src="https://img.shields.io/github/issues/MS893/datascientist?color=56BEB8" /> -->
 
-  <!-- <img alt="Github forks" src="https://img.shields.io/github/forks/{{YOUR_GITHUB_USERNAME}}/datascientist?color=56BEB8" /> -->
+  <!-- <img alt="Github forks" src="https://img.shields.io/github/forks/MS893/datascientist?color=56BEB8" /> -->
 
-  <!-- <img alt="Github stars" src="https://img.shields.io/github/stars/{{YOUR_GITHUB_USERNAME}}/datascientist?color=56BEB8" /> -->
+  <!-- <img alt="Github stars" src="https://img.shields.io/github/stars/MS893/datascientist?color=56BEB8" /> -->
 </p>
 
 <!-- Status -->
@@ -39,14 +39,14 @@
   <a href="#white_check_mark-requirements">Requirements</a> &#xa0; | &#xa0;
   <a href="#checkered_flag-starting">Starting</a> &#xa0; | &#xa0;
   <a href="#memo-license">License</a> &#xa0; | &#xa0;
-  <a href="https://github.com/{{YOUR_GITHUB_USERNAME}}" target="_blank">Author</a>
+  <a href="https://github.com/MS893" target="_blank">Author</a>
 </p>
 
 <br>
 
 ## :dart: About ##
 
-Exercises Big Data (array) et Blockchain (hash)
+Exercises Big Data (array) et Blockchain (hash).
 
 ## :sparkles: Features ##
 
@@ -57,8 +57,11 @@ Exercises Big Data (array) et Blockchain (hash)
 
 The following tools were used in this project:
 
-- [Ruby](https://www.ruby-lang.org/fr/documentation/)
+- [Expo](https://expo.io/)
 - [Node.js](https://nodejs.org/en/)
+- [React](https://pt-br.reactjs.org/)
+- [React Native](https://reactnative.dev/)
+- [TypeScript](https://www.typescriptlang.org/)
 
 ## :white_check_mark: Requirements ##
 

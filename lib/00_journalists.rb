@@ -42,20 +42,13 @@ end
 
 def nb_journ_maj(handle)
   # nb de handle avec la première lettre en majuscule
-  nb = 0
-  handle.each do |handle|
-    if (handle[1] != "_") && (handle[1] == handle[1].upcase)
-      nb += 1
-    end
-  end
-  return nb
+  puts "il y a #{handle.count{|handle| ("A".."Z").include?(handle[1]) }} handle qui commencent par une majuscule"
 end
-# puts "il y a #{twitter.count{|handle| ("A".."Z").include?(handle[1]) }} handle qui commencent par une majuscule"
 
 def tri(handle)
   # tri par ordre alphabétique le tableau
-  return handle.sort! # attention sort! trie et écrase le tableau avec le tri !!!
-# return handle.sort_by { |chaine| chaine.downcase }
+  # return handle.sort # attention sort! trie et écrase le tableau avec le tri !!! et sort tri d'abord les majuscules puis les minuscules
+  return handle.sort_by { |chaine| chaine.downcase }
 end
 
 def tri_longueur(handle)
@@ -76,16 +69,6 @@ def répartition(handle, greatest)
     end
     if (nb > 0) then puts " nb de handle avec #{i-1} caractère(s) = #{nb}" end
   end
-end
-# solution de Florian qui n'affiche pas les nb de caracrtères qui n'existent pas
-def repartition(h)
-    number = []
-    h.each do |nom|
-        number << nom.length
-    end
-    number.uniq.sort.each do |num|
-    puts "il y a #{number.count(num)} nom qui contienne #{num-1} lettres"
-    end
 end
 
 ##### exécution #####
@@ -114,7 +97,7 @@ loop do
     nb_journ_5char = journ.count { |chaine| chaine.length == 6 }
     puts "Autre possibilité = #{nb_journ_5char}"
   when "4"
-    puts "Nombre de handle dont la 1ère lettre est une majuscule = #{nb_journ_maj(journ)}"
+    nb_journ_maj(journ)
   when "5"
     # tri ordre alphabétique
     journ_trié = tri(journ)
