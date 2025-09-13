@@ -41,19 +41,21 @@ def nb_journ_5char(handle)
 end
 
 def nb_journ_maj(handle)
-  # nb de handle avec la première lettre en mahandleuscule
+  # nb de handle avec la première lettre en majuscule
   nb = 0
   handle.each do |handle|
-    if handle[1] == handle[1].upcase
+    if (handle[1] != "_") && (handle[1] == handle[1].upcase)
       nb += 1
     end
   end
   return nb
 end
+# puts "il y a #{twitter.count{|handle| ("A".."Z").include?(handle[1]) }} handle qui commencent par une majuscule"
 
 def tri(handle)
   # tri par ordre alphabétique le tableau
-  return handle.sort!
+  return handle.sort! # attention sort! trie et écrase le tableau avec le tri !!!
+# return handle.sort_by { |chaine| chaine.downcase }
 end
 
 def tri_longueur(handle)
@@ -72,8 +74,18 @@ def répartition(handle, greatest)
         handle.delete(nom) # supprime l'élément du tableau pour éviter de le retester
       end
     end
-    puts " nb de handle avec #{i-1} caractère(s) = #{nb}"
+    if (nb > 0) then puts " nb de handle avec #{i-1} caractère(s) = #{nb}" end
   end
+end
+# solution de Florian qui n'affiche pas les nb de caracrtères qui n'existent pas
+def repartition(h)
+    number = []
+    h.each do |nom|
+        number << nom.length
+    end
+    number.uniq.sort.each do |num|
+    puts "il y a #{number.count(num)} nom qui contienne #{num-1} lettres"
+    end
 end
 
 ##### exécution #####
